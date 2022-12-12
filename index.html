@@ -3,13 +3,53 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website</title>
+    <title>Oh Mon Dieu | French Recipes</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
-    <h1>Hello World!</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#recipes">Recipes</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <div class="search-container">
+                <input type="text" placeholder="Search for recipes...">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </div>
+        </ul>
+    </nav>
+
+    <section class="floating-section" id="home">
+        <h1>Recipes of the Week</h1>
+        <h2 id="recipe-week-name">Baguette</h2>
+        <button>Explore this recipe!</button>
+    </section>
+    <section class="floating-section" id="recipes">
+        <h1>Recipes</h1>
+        <div class="recipe-list">
+            <a href="aslkjfksdf">Recipe #1</a>
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFsK6RlRLoTW9NI8gz2Y-E5rhY_81vgD2lunObQ5q9yxQeVnHInLVLdYfKxvXW7JmYjGo&usqp=CAU">
+        </div>
+        <div class="recipe-list">
+            <a href="aslkjfksdf">Recipe #2</a>
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFsK6RlRLoTW9NI8gz2Y-E5rhY_81vgD2lunObQ5q9yxQeVnHInLVLdYfKxvXW7JmYjGo&usqp=CAU">
+        </div>
+        <div class="recipe-list">
+            <a href="aslkjfksdf">Recipe #3</a>
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFsK6RlRLoTW9NI8gz2Y-E5rhY_81vgD2lunObQ5q9yxQeVnHInLVLdYfKxvXW7JmYjGo&usqp=CAU">
+        </div>
+    </section>
+
+    <script src="./index.js"></script>
 </body>
 
 </html>
