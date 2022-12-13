@@ -6,10 +6,20 @@
     <title>sdljfhsdjlkf</title>
 </head>
 <body>
-    <?php
-    $url = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-    echo $url;
-    ?>
     <h1>Recipe page</h1>
+    <?php
+        $url = "http://" . $_SERVER["HTTP_HOST"] . $_SERVER['REQUEST_URI'];
+        $recipe = htmlspecialchars($_GET["recipe"]);
+        
+        // database work
+        $host = "localhost";
+        $dbname = "p1recipe2022";
+        $user = "root";
+        $password = "";
+        $port = 3306;
+        $db = new mysqli("localhost", $user, $password, $db) or die("Unable to connect to database!");
+        echo "great work";
+    ?>
+
 </body>
 </html>
