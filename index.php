@@ -11,43 +11,30 @@
 </head>
 
 <body>
-
     <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#recipes">Recipes</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="about.html">About</a></li>
-            <div class="search-container">
-                <input type="text" placeholder="Search for recipes...">
-                <button type="submit"><i class="fa fa-search"></i></button>
-            </div>
-        </ul>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#recipes">Recipes</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <div class="search-container">
+          <input type="text" placeholder="Search for recipes..." />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+      </ul>
     </nav>
 
     <section class="floating-section" id="home">
-        <h1>Recipes of the Week</h1>
-        <h2 id="recipe-week-name">Baguette</h2>
-        <button>Explore this recipe!</button>
+      <h1>Recipes of the Week</h1>
+      <h2 id="recipe-week-name">Baguette</h2>
+      <a href="#recipes">Explore our recipes!</a>
     </section>
     <section class="floating-section" id="recipes">
-        <h1>Recipes</h1>
-        <div class="recipe-list">
-            <a href="aslkjfksdf">Recipe #1</a>
-            <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFsK6RlRLoTW9NI8gz2Y-E5rhY_81vgD2lunObQ5q9yxQeVnHInLVLdYfKxvXW7JmYjGo&usqp=CAU">
-        </div>
-        <div class="recipe-list">
-            <a href="aslkjfksdf">Recipe #2</a>
-            <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFsK6RlRLoTW9NI8gz2Y-E5rhY_81vgD2lunObQ5q9yxQeVnHInLVLdYfKxvXW7JmYjGo&usqp=CAU">
-        </div>
-        <div class="recipe-list">
-            <a href="aslkjfksdf">Recipe #3</a>
-            <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFsK6RlRLoTW9NI8gz2Y-E5rhY_81vgD2lunObQ5q9yxQeVnHInLVLdYfKxvXW7JmYjGo&usqp=CAU">
-        </div>
+      <h1>Recipes</h1>
+      <p>Explore all of the delicious recipes!</p>
     </section>
+
+    <script src="./index.js"></script>
 
     <?php
         $servername = "localhost";

@@ -57,7 +57,7 @@ window.addEventListener("DOMContentLoaded", (_) => {
     allRecipeContainer.insertAdjacentHTML(
       "beforeend",
       `<div class="recipe-list">
-        <a href="aslkjfksdf">${recipe.name}</a>
+        <a href="recipe.php?${recipe.name}">${recipe.name}</a>
           <img
             src="${recipe.url}">
       </div>`

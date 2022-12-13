@@ -6,7 +6,8 @@
 }
 
 html {
-  background: url("https://cdn.britannica.com/82/682-004-F0B47FCB/Flag-France.jpg") no-repeat center center fixed;
+  background: url("https://cdn.britannica.com/82/682-004-F0B47FCB/Flag-France.jpg")
+    no-repeat center center fixed;
   background-color: rgba(18, 18, 18, 0.1);
   background-blend-mode: multiply;
 
@@ -159,8 +160,9 @@ nav .search-container button:hover {
   display: block;
   text-decoration: none;
   font-size: 1.2em;
+  color: black;
 }
 
 .recipe-list a:hover {
-  color: #1b77da;
+  color: #007bff;
 }
