@@ -24,6 +24,16 @@ window.addEventListener("DOMContentLoaded", (_) => {
       url:
         "https://joyfoodsunshine.com/wp-content/uploads/2022/03/best-crepes-recipe-1x1-1.jpg",
     },
+    {
+      name: "Crêpe",
+      url:
+        "https://joyfoodsunshine.com/wp-content/uploads/2022/03/best-crepes-recipe-1x1-1.jpg",
+    },
+    {
+      name: "Crêpe",
+      url:
+        "https://joyfoodsunshine.com/wp-content/uploads/2022/03/best-crepes-recipe-1x1-1.jpg",
+    },
   ];
 
   // --------------- slideshow --------------------
@@ -37,6 +47,20 @@ window.addEventListener("DOMContentLoaded", (_) => {
     recipeWeek.style.backgroundImage = `url("${recipe.url}")`;
     recipeWeekName.innerHTML = recipe.name;
 
-    setTimeout(showSlides, 4 * 1000);
+    setTimeout(showSlides, 10 * 1000);
+  }
+
+  const allRecipeContainer = document.getElementById("recipes");
+  // add new recipes
+  for (let i = 0; i < recipeItems.length; i++) {
+    const recipe = recipeItems[i];
+    allRecipeContainer.insertAdjacentHTML(
+      "beforeend",
+      `<div class="recipe-list">
+        <a href="aslkjfksdf">${recipe.name}</a>
+          <img
+            src="${recipe.url}">
+      </div>`
+    );
   }
 });
