@@ -36,7 +36,6 @@
         <h1>Made by the French for the French!</h1>
     </section>
 
-    <script src="./js/recipes.js"></script>
     <script src="./js/recipe.js"></script>
 </body>
 

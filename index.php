@@ -32,7 +32,7 @@
     <h1>Recipes</h1>
     <p>Explore all of the delicious recipes!</p>
   </section>
-
+  <?php ?>
   <script src="./js/index.js"></script>
   <script src="./js/recipes.js"></script>
 </body>

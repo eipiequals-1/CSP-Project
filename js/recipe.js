@@ -1,6 +1,4 @@
 // code
-
-
 window.addEventListener("DOMContentLoaded", (_) => {
     // get the title and image header
     const recipeTitle = document.getElementById("home");
@@ -9,7 +7,14 @@ window.addEventListener("DOMContentLoaded", (_) => {
     const ingredientsContainer = document.getElementById("ingredients");
     const procedureContainer = document.getElementById("procedure");
 
-    const recipe = recipeItems[1];
+    // recipeNameFromPhp comes from php echo param
+    let recipe = null;
+    for (let rec of recipeItems) {
+        if (rec.name == recipeNameFromPhp) {
+            recipe = rec;
+        }
+    }
+
     // change the document title
     document.title = recipe.name + " Recipe";
 
