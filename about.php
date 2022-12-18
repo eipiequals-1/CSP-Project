@@ -17,20 +17,19 @@
 </head>
 
 <body>
-    <?php
-    ?>
+  <?php
+      require_once("./scripts/dbconnect.php");
+      require_once("./scripts/query.php");
+  ?>
 
-    <nav>
-        <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="index.php#recipes">Recipes</a></li>
-            <li><a href="about.php">About</a></li>
-            <div class="search-container">
-                <input type="text" placeholder="Search for recipes..." />
-                <button type="submit"><i class="fa fa-search"></i></button>
-            </div>
-        </ul>
-    </nav>
+  <nav>
+    <ul>
+      <li><a href="index.php">Home</a></li>
+      <li><a href="index.php#recipes">Recipes</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="search.php">Search</a></li>
+    </ul>
+  </nav>
 
     <section class="floating-section" id="about">
         <h1>Made by the French for the French!</h1>

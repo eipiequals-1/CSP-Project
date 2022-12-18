@@ -11,15 +11,16 @@
 </head>
 
 <body>
+  <?php
+      require_once("./scripts/dbconnect.php");
+      require_once("./scripts/query.php");
+  ?>
   <nav>
     <ul>
       <li><a href="#">Home</a></li>
       <li><a href="#recipes">Recipes</a></li>
       <li><a href="about.php">About</a></li>
-      <div class="search-container">
-        <input type="text" placeholder="Search for recipes..." />
-        <button type="submit"><i class="fa fa-search"></i></button>
-      </div>
+      <li><a href="search.php">Search</a></li>
     </ul>
   </nav>
 

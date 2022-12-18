@@ -1,7 +1,7 @@
 <?php
 
         // database work
-        /*$host = "localhost";
+        $host = "localhost";
         $dbname = "p1recipe2022";
         $user = "root";
         $password = "";
@@ -21,5 +21,9 @@
             while($row = $result->fetch_assoc()) {
                 echo "id: " . $row["id"]. " - Name: " . $row["first"]. " " . $row["last"]. "<br>";
             }
-        }*/
+        }
 ?>
+      <div class="search-container">
+        <input type="text" placeholder="Search for recipes..." />
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </div>

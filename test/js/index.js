@@ -15,7 +15,6 @@ window.addEventListener("DOMContentLoaded", (_) => {
   function showSlides() {
     slideIndex++;
 
-    // show only top 3 recipes
     const recipe = recipeItems[slideIndex % 3];
     recipeWeek.style.backgroundImage = `url("${recipe.url}")`;
     recipeWeekName.innerHTML = recipe.name;

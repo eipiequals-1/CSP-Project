@@ -28,12 +28,9 @@
     <nav>
         <ul>
             <li><a href="index.php">Home</a></li>
-            <li><a href="#">Recipes</a></li>
+            <li><a href="index.php#recipes">Recipes</a></li>
             <li><a href="about.php">About</a></li>
-            <div class="search-container">
-                <input type="text" placeholder="Search for recipes..." />
-                <button type="submit"><i class="fa fa-search"></i></button>
-            </div>
+            <li><a href="#">Search</a></li>
         </ul>
     </nav>
 
