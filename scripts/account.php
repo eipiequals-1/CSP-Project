@@ -9,7 +9,7 @@ function login($email, $password) {
     $conn = connectDB();
     
     // check if the account already exists
-    $sql = "SELECT * FROM users WHERE email=" . $email;
+    $sql = "SELECT * FROM users WHERE email='" . $email . "'";
     $result = $conn->query($sql);
     if ($result) {
         // output data of each row
