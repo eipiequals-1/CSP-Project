@@ -23,7 +23,7 @@ function login($email, $password) {
     }
 
     $conn->close();
-    return "Error! Email or password is incorrect!":
+    return "Error! Email or password is incorrect!";
 }
 
 /**

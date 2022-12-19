@@ -7,7 +7,7 @@ class Recipe {
     public $ingredients;
     public $procedure;
 
-    public __construct($name, $url, $ingredients, $procedure) {
+    function __construct($name, $url, $ingredients, $procedure) {
         $this->name = $name; 
         $this->url = $url; 
         $this->ingredients = $ingredients; 

@@ -42,9 +42,6 @@
     <?php
         require_once("./scripts/dbconnect.php");
         require_once("./scripts/query.php");
-
-        $url = "http://" . $_SERVER["HTTP_HOST"] . $_SERVER['REQUEST_URI'];
-        $recipe = htmlspecialchars($_GET["recipe"]);
     ?>
 
     <nav>
@@ -118,9 +115,9 @@
             // add search when user clicks enter
             const searchBar = document.getElementById("search");
             searchBar.addEventListener("keyup", ev => {
-                if (ev.code === "Enter") {
+                // if (ev.code === "Enter") {
                     showRecipes();
-                }
+                // }
             });
 
             // get search button and add button event listener
