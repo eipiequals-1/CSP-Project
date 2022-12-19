@@ -30,7 +30,7 @@
             <li><a href="index.php">Home</a></li>
             <li><a href="index.php#recipes">Recipes</a></li>
             <li><a href="about.php">About</a></li>
-            <li><a href="recipe.php">Search</a></li>
+            <li><a href="search.php">Search</a></li>
         </ul>
     </nav>
 
